@@ -1,0 +1,62 @@
+{
+  "name": "roma8",
+  "version": "0.0.1",
+  "description": "A Quasar Framework App",
+  "productName": "Quasar App",
+  "author": "Alberto <alvich@floridauniversitaria.es>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@quasar/extras": "^1.16.4",
+    "@vueuse/firebase": "^10.9.0",
+    "axios": "^1.2.1",
+    "base": "^3.0.0",
+    "bootstrap": "^5.3.3",
+    "core-js": "^3.31.1",
+    "crypto-js": "^4.2.0",
+    "firebase": "^10.11.1",
+    "firebaseui": "^6.1.0",
+    "html2pdf.js": "^0.9.0",
+    "quasar": "^2.8.0",
+    "signature_pad": "^4.2.0",
+    "sweetalert2": "^11.10.7",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@quasar/app-webpack": "^4.0.0-beta.1",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "prettier": "^3.0.3",
+    "sass": "^1.74.1",
+    "sass-loader": "^10.5.2",
+    "workbox-webpack-plugin": "^7.1.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": "^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

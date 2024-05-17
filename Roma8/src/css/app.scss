@@ -1,0 +1,114 @@
+// app global css in SCSS form
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #5c5c5c;
+
+}
+
+.h1withbutton {
+  text-align: center;
+  font-size: 30px;
+  color: #5c5c5c;
+  margin-top: -50px;
+}
+
+.h1withbutton3 {
+  text-align: center;
+  font-size: 30px;
+  color: #5c5c5c;
+  margin-top: -50px;
+  line-height: 1.5;
+}
+
+.h1withbutton2 {
+  text-align: center;
+  font-size: 30px;
+  color: #5c5c5c;
+  margin-top: -70px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 18px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.lista {
+  font-size: 17px;
+}
+
+span {
+  font-size: 17px;
+}
+
+li {
+  list-style: none;
+  font-size: 17px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* Alinea verticalmente los elementos al centro */
+}
+
+.buttonback {
+  margin-top: 20px;
+  margin-bottom: -15px;
+  margin-left: 3%;
+  width: 50px;
+  height: auto;
+
+  margin-right: auto;
+  /* Ajusta el espacio entre el botón y el título */
+  align-items: start;
+}
+
+.buttonback2 {
+  margin-top: 20px;
+  margin-bottom: -15px;
+  margin-left: 3%;
+  width: 50px;
+  height: auto;
+
+  margin-right: auto;
+  /* Ajusta el espacio entre el botón y el título */
+  align-items: start;
+}
+
+.buttonback .q-icon {
+  margin-left: -5px;
+}
+
+.card {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.carduser {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 12px,
+    rgba(17, 17, 26, 0.1) 0px 8px 28px, rgba(17, 17, 26, 0.1) 0px 12px 40px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button {
+  color: "inherit"
+}
